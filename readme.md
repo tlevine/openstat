@@ -20,10 +20,14 @@ Private information should be encrypted to both Tom's and Ingrid's GPG keys.
     ./open-data-companies/plot.png
     ./open-data-companies/interview.md.gpg
 
-Here are the exceptional files.
+Run this to make sure that the repository is structured like this.
+
+    
+
+Here are the exceptional files. They are all in the root of the repository.
 
 * The file you are reading (`readme.md`)
 * The `.git` directory
 * GPG public keys (`tom.key` and `ingrid.key`)
-
-Run this to make sure that the repository is structured like this.
+* The `bin` directory
+* The `Makefile`
