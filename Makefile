@@ -1,0 +1,2 @@
+check:
+	bin/check.sh

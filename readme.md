@@ -22,7 +22,7 @@ Private information should be encrypted to both Tom's and Ingrid's GPG keys.
 
 Run this to make sure that the repository is structured properly.
 
-    
+   make check 
 
 Here are the exceptional files. They are all in the root of the repository.
 
