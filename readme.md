@@ -20,7 +20,7 @@ Private information should be encrypted to both Tom's and Ingrid's GPG keys.
     ./open-data-companies/plot.png
     ./open-data-companies/interview.md.gpg
 
-Run this to make sure that the repository is structured like this.
+Run this to make sure that the repository is structured properly.
 
     
 
