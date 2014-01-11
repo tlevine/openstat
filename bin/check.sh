@@ -18,9 +18,10 @@ for file in $(ls); do
     (
       cd $file
       ls | grep '^index\.' > /dev/null
-    ) ||
-    echo "'$file' should contain an index file."
-    all_well=false
+    ) || (
+      echo "'$file' should contain an index file."
+      all_well=false
+    )
   fi
 done
 
